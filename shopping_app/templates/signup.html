@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <link rel="stylesheet" href="static/style_s.css">
+        <div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<div><img src="/static/doodle.gif"  height="30" width="38">  Doodle<span>Shopping</span></div>
+		</div>
+		<br>
+		<div class="login">
+        
+            <!-- <form action='' method='post'> -->
+            {% csrf_token %}
+            <form action='' method='post'>
+                
+                <input type='text'   name='name'     placeholder='username'><br>
+                 
+                <input type='email'  name='email'        placeholder='email'><br>
+               
+                <input type='password'  name='password'        placeholder='password'><br>
+            
+                    <form action='login'>
+                    <!-- <button type='submit'> SignUp</button> -->
+                    <!-- </form><br> -->
+                    <input type="submit" value="Sign up"></form>
+                    <!-- <form action='login'> -->
+                    <!-- <input type="submit" value="Login"></form> -->
+                    <!-- </form> -->
+                    <a href="http://127.0.0.1:8000/login">Already having an account?</a>
+                </form>
+        </div>
+    </body>
+
+</html>
+

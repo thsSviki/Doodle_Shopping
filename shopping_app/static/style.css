@@ -1,0 +1,147 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.jok{
+   background-position:center;
+   background-size: cover;
+   width:100%;
+   max-height:550px;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    position: ;
+    top: 0;
+    width: 100%;
+  }
+  .bck{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .logo{
+    width: 50px;
+    float: left;
+    margin-top: 5px;
+  }
+  .tex{
+    float: left;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-left: 4px;
+    color: white;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 40px;
+  }
+  .cart{
+    float: left;
+    color: white;
+    margin-left: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  span{
+	color: #5379fa !important;
+}
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: greenyellow;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: start;
+  } 
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    max-height:800px;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .pic{
+    display: flex;
+    margin-top: 80px;
+  }
+  .pic1{
+    display: flex;
+    margin-top: 0px;
+  }
+  .pic2{
+    display: flex;
+    margin-top: 5px;
+  }
